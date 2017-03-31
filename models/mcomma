@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: models.CommaSeparatedIntegerField
+# key: mcomma
+# group: model fields
+# --
+$0 = models.CommaSeparatedIntegerField(max_length=${1:128})

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: models.EmailField
+# key: memail
+# group: model fields
+# --
+$0 = models.EmailField($1)

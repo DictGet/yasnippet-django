@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: models.DateTimeField
+# key: mdatetime
+# group: model fields
+# --
+$0 = models.DateTimeField($1, auto_now=${2:False}, auto_now_add=${3:False})

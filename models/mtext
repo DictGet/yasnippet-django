@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: models.TextField
+# key: mchar
+# group: model fields
+# --
+$0 = models.TextField($1)

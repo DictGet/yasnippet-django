@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: models.IntegerField
+# key: mint
+# group: model fields
+# --
+$0 = models.IntegerField($1)

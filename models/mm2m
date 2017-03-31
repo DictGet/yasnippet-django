@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: models.ManyToManyField
+# key: mm2m
+# group: model fields
+# --
+$0 = models.ManyToManyField($1, null=$2, blank=$3, related_name=$4)

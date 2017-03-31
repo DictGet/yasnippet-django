@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: models.DateField
+# key: mdate
+# group: model fields
+# --
+$0 = models.DateField($1)

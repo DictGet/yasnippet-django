@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: models.ForeignKey
+# key: mfk
+# group: model fields
+# --
+$0 = models.ForeignKey($1, null=$2, blank=$3, related_name=$4)

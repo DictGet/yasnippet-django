@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: models.DecimalField
+# key: mdecimal
+# group: model fields
+# --
+$0 = models.DecimalField($1, max_digits=$2, decimal_places=$3)

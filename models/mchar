@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: models.CharField
+# key: mchar
+# group: model fields
+# --
+$0 = models.CharField(max_length=${1:128}, $2)

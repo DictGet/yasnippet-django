@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: models.Model
+# key: model
+# group: model fields
+# --
+class $0(models.Model):
+    class Meta:
+        verbose_name = "$1"
+        verbose_name_plural = "$1s"
+
+    def __str__(self):
+        pass

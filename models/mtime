@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: models.TimeField
+# key: mtime
+# group: model fields
+# --
+$0 = models.TimeField($1, auto_now=${2:False}, auto_now_add=${3:False})
